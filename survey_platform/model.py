@@ -12,3 +12,10 @@ from sqlalchemy import (
     Text,
 )
 
+from sqlalchemy.orm import relationship
+from database import Base
+
+class RoleEnum(str, enum.Enum):
+    ADMIN = "admin"
+    USER = "user"
+    RESPONDENT = "respondent"
