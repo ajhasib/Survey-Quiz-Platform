@@ -17,7 +17,7 @@ from database import Base
 
 
 class RoleEnum(str, enum.Enum):
-    AUTHOR = "author"
+    ADMIN = "admin"
     USER = "user"
     RESPONDENT = "respondent"
 
