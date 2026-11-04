@@ -19,3 +19,8 @@ class RoleEnum(str, enum.Enum):
     ADMIN = "admin"
     USER = "user"
     RESPONDENT = "respondent"
+
+class SurveyStatus(str, enum.Enum):
+    DRAFT = "draft"
+    PUBLISHED = "published"
+    CLOSED = "closed"
